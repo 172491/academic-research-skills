@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "academic-research-skills",
+  "version": "3.9.3",
+  "description": "Academic research pipeline: research, write, peer review, revise, finalize. Four skills (deep-research, academic-paper, academic-paper-reviewer, academic-pipeline), 35+ modes, citation-provenance and claim-faithfulness gates.",
+  "author": {
+    "name": "Cheng-I Wu",
+    "url": "https://github.com/Imbad0202"
+  },
+  "keywords": [
+    "academic",
+    "research",
+    "deep research",
+    "paper",
+    "academic paper",
+    "academic writing",
+    "literature review",
+    "systematic review",
+    "peer review",
+    "manuscript review",
+    "citation check",
+    "abstract",
+    "outline",
+    "revision",
+    "fact-check",
+    "研究",
+    "深度研究",
+    "學術論文",
+    "論文寫作",
+    "文獻回顧",
+    "系統性回顧",
+    "同儕審查",
+    "審查意見",
+    "引註查核",
+    "摘要"
+  ]
+}
