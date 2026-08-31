@@ -8,9 +8,12 @@ on:
       - 'scripts/check_corpus_consumer_protocol.py'
       - 'scripts/sync_adapter_docs.py'
       - 'shared/contracts/passport/**'
-      - 'academic-pipeline/references/adapters/**'
-      - 'academic-pipeline/references/literature_corpus_consumers.md'
-      - 'deep-research/agents/bibliography_agent.md'
+      # Skill trees are real directories under skills/ (the repo-root
+      # academic-*/ and deep-research/ entries are compatibility symlinks,
+      # and path filters do not match through symlinks).
+      - 'skills/academic-pipeline/references/adapters/**'
+      - 'skills/academic-pipeline/references/literature_corpus_consumers.md'
+      - 'skills/deep-research/agents/bibliography_agent.md'
   push:
     branches: [main]
     paths:
@@ -19,9 +22,9 @@ on:
       - 'scripts/check_corpus_consumer_protocol.py'
       - 'scripts/sync_adapter_docs.py'
       - 'shared/contracts/passport/**'
-      - 'academic-pipeline/references/adapters/**'
-      - 'academic-pipeline/references/literature_corpus_consumers.md'
-      - 'deep-research/agents/bibliography_agent.md'
+      - 'skills/academic-pipeline/references/adapters/**'
+      - 'skills/academic-pipeline/references/literature_corpus_consumers.md'
+      - 'skills/deep-research/agents/bibliography_agent.md'
 
 concurrency:
   # Suffix by event_name so push (branches: [main]) and pull_request
